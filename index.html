@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All You Need</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-bg">
+        <section class="">
+            <header>
+                <h1>All You Need</h1>
+                <p>Straight to the point. No SEO.</p>
+            </header>
+        </section>
+    </div>
+    <div class="midnav">
+        <input type="search" value="" id="search" placeholder="Search what you're looking for" size="60" onchange="openPage()">
+        <script>
+            function openPage(){
+                var x = document.getElementById("search").value.toLowerCase()
+                if (x == "knives"){
+                    window.location.href='knives.html'
+                }
+            }
+        </script>
+    </div>
+    <div class="recommends1">
+        <ul>
+            <button><a href="knives.html">Knives</a></button>
+            <button><a href="/">Chicken and Rice Recipe</a></button>
+            <button><a href="/">Protein Powder</a></button>
+            <button><a href="/">SUV</a></button>
+            <button><a href="/">Dogs</a></button>
+        </ul>
+    </div>
+    <div class="recommends2">
+        <ul>
+            <button><a href="/">Macbook</a></button>
+            <button><a href="/">Water Bottle</a></button>
+            <button><a href="/">Carbone-NYC</a></button>
+            <button><a href="/">Productivity Apps</a></button>
+            <button><a href="/">Tennis Rackets</a></button>
+        </ul>
+    </div>
+    <div class="recommends3">
+        <ul>
+            <button><a href="/">Credit Card</a></button>
+            <button><a href="NFT.html">NFT</a></button>
+            <button><a href="/">Bored Apes</a></button>
+            <button><a href="/">Speakers</a></button>
+            <button><a href="/">Gym</a></button>
+        </ul>
+    </div>
+    <div class="copyrights">
+        <p>© All You Need 2022. All rights reserved</p>
+    </div>
+</body>
+</html>
